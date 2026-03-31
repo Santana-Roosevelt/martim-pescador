@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Martim Pescador — Cardápio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600&family=Zen+Kaku+Gothic+New:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="arabesco-bg"></div>
+
+<div id="app">
+
+  <!-- ══ TELA INICIAL ══════════════════════════════════ -->
+  <div id="screen-home" class="screen active">
+    <div class="scroll-area">
+      <div class="home-hero">
+        <div class="wave-logo">
+          <svg viewBox="0 0 200 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 80 Q35 30 60 80 Q85 130 110 80 Q135 30 160 80 Q175 110 190 80" stroke="#5ba3cc" stroke-width="4" fill="none" stroke-linecap="round"/>
+            <path d="M10 55 Q35 5 60 55 Q85 105 110 55 Q135 5 160 55 Q175 85 190 55" stroke="#2e7aad" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.6"/>
+            <path d="M10 30 Q35 -10 60 30 Q85 70 110 30 Q135 -10 160 30 Q175 55 190 30" stroke="#1a4a6e" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.35"/>
+          </svg>
+        </div>
+        <div class="home-name">
+          <em>Seafood &amp; Japanese</em>
+          Martim Pescador
+        </div>
+        <div class="home-tagline">Sabores do mar com alma oriental</div>
+        <div class="home-divider"></div>
+      </div>
+
+      <div class="home-options">
+        <!-- Card Rodízio -->
+        <div class="menu-card" onclick="abrirCardapio('rodizio')">
+          <img class="menu-card-img"
+            src="https://images.unsplash.com/photo-1553621042-f6e147245754?w=700&q=80"
+            alt="Rodízio Japonês"
+            onerror="this.style.display='none'">
+          <div class="menu-card-body">
+            <div class="menu-card-icon">🍣</div>
+            <div class="menu-card-title">Rodízio Japonês</div>
+            <div class="menu-card-desc">Experiência ilimitada com sashimis, temakis, niguiris, makis, pratos quentes e sobremesas</div>
+            <span class="menu-card-arrow">›</span>
+          </div>
+        </div>
+
+        <!-- Card Executivo -->
+        <div class="menu-card" onclick="abrirCardapio('executivo')">
+          <img class="menu-card-img"
+            src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=700&q=80"
+            alt="Menu Executivo"
+            onerror="this.style.display='none'">
+          <div class="menu-card-body">
+            <div class="menu-card-icon">🍽️</div>
+            <div class="menu-card-title">Menu Executivo</div>
+            <div class="menu-card-desc">Entrada, prato principal e sobremesa — culinária contemporânea com frutos do mar e japonesa</div>
+            <div class="menu-card-price">A partir de R$ 69,90</div>
+            <span class="menu-card-arrow">›</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ TELA CATEGORIAS ═══════════════════════════════ -->
+  <div id="screen-categorias" class="screen">
+    <div class="cats-header">
+      <div class="cats-hero">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
+          <button class="btn-back" onclick="voltarHome()">← Voltar</button>
+        </div>
+        <div id="cats-titulo" class="cats-hero-titulo"></div>
+        <div id="cats-sub" class="cats-hero-sub"></div>
+      </div>
+    </div>
+    <div class="scroll-area">
+      <div id="cats-grid" class="cats-grid"></div>
+    </div>
+  </div>
+
+  <!-- ══ TELA PRATOS ════════════════════════════════════ -->
+  <div id="screen-pratos" class="screen">
+    <div class="pratos-header">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+        <button class="btn-back" onclick="voltarCategorias()">← Voltar</button>
+      </div>
+      <div>
+        <span id="pratos-cat-icon" class="pratos-cat-icon"></span>
+        <span id="pratos-cat-nome" class="pratos-cat-nome"></span>
+      </div>
+    </div>
+    <div class="scroll-area">
+      <div id="pratos-list" class="pratos-list"></div>
+    </div>
+  </div>
+
+  <!-- ══ TELA DETALHE ═══════════════════════════════════ -->
+  <div id="screen-detalhe" class="screen">
+    <div class="detalhe-img-wrap" style="flex-shrink:0;">
+      <img id="det-img" class="detalhe-img" src="" alt="" onerror="this.src='https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80'">
+      <div class="detalhe-img-overlay"></div>
+      <button class="detalhe-img-back" onclick="voltarPratos()">← Voltar</button>
+    </div>
+    <div class="detalhe-body">
+      <div id="det-cat" class="detalhe-cat-badge"></div>
+      <div id="det-nome" class="detalhe-nome"></div>
+      <div class="detalhe-divider"></div>
+      <div id="det-desc" class="detalhe-desc"></div>
+      <div id="det-preco-wrap" class="detalhe-preco-tag" style="display:none;">
+        <span class="detalhe-preco-label">PREÇO</span>
+        <span id="det-preco" class="detalhe-preco-val"></span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
