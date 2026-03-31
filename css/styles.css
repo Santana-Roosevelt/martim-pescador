@@ -43,7 +43,6 @@ body {
   position: relative; z-index: 1;
   height: 100dvh; height: 100vh;
   display: flex; flex-direction: column;
-  max-width: 480px; margin: 0 auto;
 }
  
 /* ─── SCREENS ───────────────────────────────────────── */
@@ -162,7 +161,29 @@ body {
   padding: 24px 20px 32px;
   display: flex; flex-direction: column; gap: 16px;
 }
- 
+
+@media (min-width: 1024px) {
+  #app {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .home-options {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 18px;
+    justify-content: center;
+    padding: 30px 32px 36px;
+  }
+
+  .menu-card {
+    flex: 1 1 calc(50% - 22px);
+    max-width: calc(50% - 22px);
+  }
+
+  .menu-card-img { height: 160px; }
+}
+
 .menu-card {
   background: linear-gradient(135deg, rgba(255,255,255,0.06) 0%, rgba(255,255,255,0.02) 100%);
   border: 1px solid rgba(91,163,204,0.25);
@@ -234,6 +255,7 @@ body {
 .cats-grid {
   padding: 8px 16px 24px;
   display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+  max-width: 640px; margin: 0 auto; width: 100%;
 }
  
 .cat-tile {
@@ -275,6 +297,7 @@ body {
 .pratos-list {
   padding: 8px 16px 100px;
   display: flex; flex-direction: column; gap: 12px;
+  max-width: 640px; margin: 0 auto; width: 100%;
 }
  
 .prato-card {
@@ -283,16 +306,22 @@ body {
   box-shadow: 0 2px 12px var(--sombra);
   transition: transform 0.2s, box-shadow 0.2s;
   border: 1px solid rgba(46,122,173,0.07);
+  min-height: 100px; align-items: stretch;
 }
 .prato-card:active { transform: scale(0.98); box-shadow: 0 1px 6px var(--sombra); }
  
 .prato-card-img {
-  width: 100px; height: 100px; object-fit: cover; flex-shrink: 0;
-  filter: saturate(0.9);
+  width: 100px; min-width: 100px; max-width: 100px;
+  height: auto; min-height: 100px;
+  object-fit: cover; flex-shrink: 0;
+  filter: saturate(0.9); display: block;
+  align-self: stretch;
 }
  
 .prato-card-info {
-  flex: 1; padding: 12px 14px; display: flex; flex-direction: column; justify-content: center; gap: 4px;
+  flex: 1; padding: 12px 14px;
+  display: flex; flex-direction: column; justify-content: center; gap: 4px;
+  min-width: 0;
 }
 .prato-card-nome {
   font-family: 'Noto Serif JP', serif;
