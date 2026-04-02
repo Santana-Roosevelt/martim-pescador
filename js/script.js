@@ -255,7 +255,7 @@ const CARDAPIO = {
             descricao_curta: "Envolto em acelga fresca",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/Acelga_Maki.jpg",
           },
           {
             id: "rm2",
@@ -265,7 +265,7 @@ const CARDAPIO = {
             descricao_curta: "Frito e crocante por fora",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/hot_roll.jpg",
           },
           {
             id: "rm3",
@@ -275,7 +275,7 @@ const CARDAPIO = {
             descricao_curta: "Salmão com couve",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/snake_couve.jpg",
           },
           {
             id: "rm4",
@@ -285,7 +285,7 @@ const CARDAPIO = {
             descricao_curta: "Pele crocante de salmão",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/salmao_skin.jpg",
           },
           {
             id: "rm5",
@@ -295,7 +295,7 @@ const CARDAPIO = {
             descricao_curta: "Kani, pepino e abacate",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&q=80",
+              "img/Makizushi/california.jpg",
           },
           {
             id: "rm6",
@@ -305,7 +305,7 @@ const CARDAPIO = {
             descricao_curta: "Salmão grelhado ao tarê",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/hot_furai_salmao.jpg",
           },
           {
             id: "rm7",
@@ -315,7 +315,7 @@ const CARDAPIO = {
             descricao_curta: "Salmão fresco clássico",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/shakemaki.jpg",
           },
           {
             id: "rm8",
@@ -325,7 +325,7 @@ const CARDAPIO = {
             descricao_curta: "Camarão fresco",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/ebimaki.jpg",
           },
           {
             id: "rm9",
@@ -335,7 +335,7 @@ const CARDAPIO = {
             descricao_curta: "Cream cheese derretido e salmão",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/hot_filadelfia.jpg",
           },
           {
             id: "rm10",
@@ -345,7 +345,7 @@ const CARDAPIO = {
             descricao_curta: "Atum fresco",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&q=80",
+              "img/Makizushi/uramaki_atum.jpg",
           },
           {
             id: "rm11",
@@ -355,7 +355,7 @@ const CARDAPIO = {
             descricao_curta: "Camarão no panko",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/ebitem_especial.jpg",
           },
           {
             id: "rm12",
@@ -365,7 +365,7 @@ const CARDAPIO = {
             descricao_curta: "Polvo macio e temperado",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1553621042-f6e147245754?w=600&q=80",
+              "img/Makizushi/uramaki_polvo.jpg",
           },
           {
             id: "rm13",
@@ -375,7 +375,7 @@ const CARDAPIO = {
             descricao_curta: "Salmão empanado frito",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/hot_furai_salmao.jpg",
           },
           {
             id: "rm14",
@@ -385,7 +385,7 @@ const CARDAPIO = {
             descricao_curta: "Cru ou maçaricado",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/joe_salmao.jpg",
           },
           {
             id: "rm15",
@@ -395,7 +395,7 @@ const CARDAPIO = {
             descricao_curta: "Salmão e shimeji salteado",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/joe_salmao_shimeji.jpg",
           },
           {
             id: "rm16",
@@ -405,7 +405,7 @@ const CARDAPIO = {
             descricao_curta: "Camarão fresco",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/joe_camarao.jpg",
           },
           {
             id: "rm17",
@@ -415,7 +415,7 @@ const CARDAPIO = {
             descricao_curta: "Sushi prensado em camadas",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/oshizushi_salmao.jpg",
           },
           {
             id: "rm18",
@@ -425,7 +425,7 @@ const CARDAPIO = {
             descricao_curta: "Receita exclusiva da casa",
             categoria: "Makizushi",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Makizushi/sakemaki_especial.jpg",
           },
         ],
       },
