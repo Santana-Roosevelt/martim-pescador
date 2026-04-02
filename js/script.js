@@ -189,7 +189,7 @@ const CARDAPIO = {
             descricao_curta: "Fusão japonesa",
             categoria: "Entradas",
             imagem:
-              "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&q=80",
+              "img/Entradas_e_saladinhas/pizza_japonesa.jpg",
           },
           {
             id: "re5",
@@ -199,7 +199,7 @@ const CARDAPIO = {
             descricao_curta: "Fusão baiano-japonesa",
             categoria: "Entradas",
             imagem:
-              "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=600&q=80",
+              "img/Entradas_e_saladinhas/acaraje_japones.jpg",
           },
           {
             id: "re6",
@@ -209,7 +209,7 @@ const CARDAPIO = {
             descricao_curta: "Rolinho de legumes frescos",
             categoria: "Entradas",
             imagem:
-              "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=600&q=80",
+              "img/Entradas_e_saladinhas/harumaki_legumes.jpeg",
           },
           {
             id: "re7",
@@ -219,7 +219,7 @@ const CARDAPIO = {
             descricao_curta: "Queijo cremoso derretido",
             categoria: "Entradas",
             imagem:
-              "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=600&q=80",
+              "img/Entradas_e_saladinhas/harumaki_queijo.jpg",
           },
           {
             id: "re8",
@@ -229,17 +229,17 @@ const CARDAPIO = {
             descricao_curta: "Salmão fresco e cream cheese",
             categoria: "Entradas",
             imagem:
-              "https://images.unsplash.com/photo-1617196034183-421b4040ed20?w=600&q=80",
+              "img/Entradas_e_saladinhas/harumaki_salmao.jpg",
           },
           {
             id: "re9",
-            nome: "Shumai de Camarão",
+            nome: "Shumay de Camarão",
             descricao:
               "Bolinho cozido no vapor à base de camarão temperado, envolto em massa de wonton. Delicado e suculento.",
             descricao_curta: "Cozido no vapor",
             categoria: "Entradas",
             imagem:
-              "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&q=80",
+              "img/Entradas_e_saladinhas/shumay_camarao.jpg",
           },
         ],
       },
