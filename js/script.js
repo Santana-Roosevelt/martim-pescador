@@ -527,7 +527,7 @@ const CARDAPIO = {
             descricao_curta: "Cream cheese e cebolinha",
             categoria: "Temaki",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Temaki/temaki_camarao.webp",
           },
           {
             id: "rt2",
@@ -537,7 +537,7 @@ const CARDAPIO = {
             descricao_curta: "Atum fresco e cebolinha",
             categoria: "Temaki",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Temaki/temaki_atum.webp",
           },
           {
             id: "rt3",
@@ -547,7 +547,7 @@ const CARDAPIO = {
             descricao_curta: "Camarão e salmão fresco",
             categoria: "Temaki",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Temaki/camarao_salmao.webp",
           },
           {
             id: "rt4",
@@ -557,7 +557,7 @@ const CARDAPIO = {
             descricao_curta: "Salmão e cebolinha verde",
             categoria: "Temaki",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Temaki/salmao_cebolinha.webp",
           },
           {
             id: "rt5",
@@ -567,7 +567,7 @@ const CARDAPIO = {
             descricao_curta: "Grelhado ao molho tarê",
             categoria: "Temaki",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Temaki/salmao_grelhado.webp",
           },
           {
             id: "rt6",
@@ -577,7 +577,7 @@ const CARDAPIO = {
             descricao_curta: "Skin ao molho tarê",
             categoria: "Temaki",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Temaki/salmao_skin.webp",
           },
           {
             id: "rt7",
@@ -587,7 +587,7 @@ const CARDAPIO = {
             descricao_curta: "Quente com cream cheese derretido",
             categoria: "Temaki",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/Temaki/hot_salmao_grelhado.webp",
           },
         ],
       },
