@@ -669,7 +669,7 @@ const CARDAPIO = {
             descricao_curta: "Molho de ostra e legumes crocantes",
             categoria: "Chapinhas de Teppan",
             imagem:
-              "https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=600&q=80",
+              "img/Chapinhas_teppan/teppan_file.webp",
           },
           {
             id: "rtp2",
@@ -679,7 +679,7 @@ const CARDAPIO = {
             descricao_curta: "Tarê caramelizado e legumes",
             categoria: "Chapinhas de Teppan",
             imagem:
-              "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
+              "img/Chapinhas_teppan/frango_molho.webp",
           },
           {
             id: "rtp3",
@@ -689,7 +689,7 @@ const CARDAPIO = {
             descricao_curta: "Tonkatsu e legumes crocantes",
             categoria: "Chapinhas de Teppan",
             imagem:
-              "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
+              "img/Chapinhas_teppan/peixe_molho.webp",
           },
         ],
       },
