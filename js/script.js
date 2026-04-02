@@ -603,7 +603,7 @@ const CARDAPIO = {
             descricao_curta: "Salmão fresco — o clássico favorito",
             categoria: "Nigiri",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/nigiri/nigiri_salmao.webp",
           },
           {
             id: "rn2",
@@ -613,7 +613,7 @@ const CARDAPIO = {
             descricao_curta: "Atum fresco e marcante",
             categoria: "Nigiri",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/nigiri/nigiri_atum.webp",
           },
           {
             id: "rn3",
@@ -623,7 +623,7 @@ const CARDAPIO = {
             descricao_curta: "Peixe branco delicado",
             categoria: "Nigiri",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/nigiri/nigiri_peixe_branco.webp",
           },
           {
             id: "rn4",
@@ -633,7 +633,7 @@ const CARDAPIO = {
             descricao_curta: "Camarão fresco cozido",
             categoria: "Nigiri",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/nigiri/nigiri_camarao.webp",
           },
           {
             id: "rn5",
@@ -643,7 +643,7 @@ const CARDAPIO = {
             descricao_curta: "Pele de salmão crocante",
             categoria: "Nigiri",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/nigiri/nigiri_salmao_skin.webp",
           },
           {
             id: "rn6",
@@ -653,7 +653,7 @@ const CARDAPIO = {
             descricao_curta: "Defumado artesanal",
             categoria: "Nigiri",
             imagem:
-              "https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80",
+              "img/nigiri/nigiri_peixe_defumado.webp",
           },
         ],
       },
