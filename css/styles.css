@@ -317,6 +317,8 @@ body {
   object-fit: cover; flex-shrink: 0;
   filter: saturate(0.9); display: block;
   align-self: stretch;
+  background: linear-gradient(135deg, var(--azul-medio), var(--azul-claro));
+  transition: opacity 0.3s ease;
 }
  
 .prato-card-info {
@@ -357,6 +359,7 @@ body {
   filter: saturate(0.9) brightness(0.9);
   transform: translateY(0);
   will-change: transform;
+  background: linear-gradient(135deg, var(--azul-medio), var(--azul-claro));
 }
 .detalhe-img-overlay {
   position: absolute; inset: 0;
@@ -511,6 +514,8 @@ body {
   align-items: center;
   justify-content: center;
   transition: opacity 0.6s ease, visibility 0.6s ease;
+  opacity: 1;
+  visibility: visible;
 }
 
 #splash.oculto {

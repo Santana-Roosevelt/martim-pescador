@@ -923,12 +923,6 @@ function voltarHome() {
   mostrarScreen("screen-home");
 }
 
-function showSplash() {
-  const splash = document.getElementById("splash");
-  if (!splash) return;
-  splash.classList.remove("oculto");
-}
-
 function renderCategorias(cats) {
   const grid = document.getElementById("cats-grid");
   grid.innerHTML = "";
@@ -976,8 +970,12 @@ function renderPratos(pratos) {
     const card = document.createElement("div");
     card.className = "prato-card";
     card.onclick = () => abrirDetalhe(p);
+    
+    const isMobile = window.innerWidth < 768;
+    const imgSize = isMobile ? 'w=300&q=50' : 'w=600&q=80';
+    
     card.innerHTML = `
-      <img class="prato-card-img" src="${p.imagem}" alt="${p.nome}" onerror="this.src='https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=600&q=80'" loading="lazy">
+      <img class="prato-card-img" data-src="${p.imagem}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%231a4a6e' width='100' height='100'/%3E%3C/svg%3E" alt="${p.nome}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=300&q=50'">
       <div class="prato-card-info">
         <div class="prato-card-nome">${p.nome}</div>
         <div class="prato-card-desc">${p.descricao_curta}</div>
@@ -986,11 +984,47 @@ function renderPratos(pratos) {
     `;
     list.appendChild(card);
   });
+  
+  lazyLoadImages();
+}
+
+function lazyLoadImages() {
+  if ('IntersectionObserver' in window) {
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const img = entry.target;
+          const src = img.dataset.src;
+          if (src) {
+            const isMobile = window.innerWidth < 768;
+            const optimizedUrl = src.includes('unsplash') 
+              ? src.replace(/w=\d+&q=\d+/, isMobile ? 'w=300&q=50' : 'w=600&q=80')
+              : src;
+            img.src = optimizedUrl;
+            observer.unobserve(img);
+          }
+        }
+      });
+    }, { rootMargin: '50px' });
+    
+    document.querySelectorAll('img[data-src]').forEach(img => imageObserver.observe(img));
+  } else {
+    document.querySelectorAll('img[data-src]').forEach(img => {
+      img.src = img.dataset.src;
+    });
+  }
 }
 
 function abrirDetalhe(prato) {
-  document.getElementById("det-img").src = prato.imagem;
-  document.getElementById("det-img").alt = prato.nome;
+  const detImg = document.getElementById("det-img");
+  const isMobile = window.innerWidth < 768;
+  
+  const optimizedUrl = prato.imagem.includes('unsplash') 
+    ? prato.imagem.replace(/w=\d+&q=\d+/, isMobile ? 'w=400&q=60' : 'w=600&q=85')
+    : prato.imagem;
+  
+  detImg.src = optimizedUrl;
+  detImg.alt = prato.nome;
   document.getElementById("det-cat").innerHTML =
     `<span style="margin-right:4px;">${CARDAPIO[menuAtual].categorias[categoriaAtual]?.icone || ""}</span> ${prato.categoria}`;
   document.getElementById("det-nome").textContent = prato.nome;
@@ -1004,7 +1038,6 @@ function abrirDetalhe(prato) {
   }
   mostrarScreen("screen-detalhe");
   const screen = document.getElementById("screen-detalhe");
-  const img = document.getElementById("det-img");
 
   screen.scrollTop = 0;
 
@@ -1030,9 +1063,26 @@ function voltarPratos() {
 function hideSplash() {
   const splash = document.getElementById('splash');
   if (!splash || splash.classList.contains('oculto')) return;
-  splash.classList.add('oculto');
+  requestAnimationFrame(() => {
+    splash.classList.add('oculto');
+  });
+}
+
+function showSplash() {
+  const splash = document.getElementById("splash");
+  if (!splash || !splash.classList.contains("oculto")) return;
+  requestAnimationFrame(() => {
+    splash.classList.remove("oculto");
+  });
+}
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(hideSplash, 500);
+  });
+} else {
+  setTimeout(hideSplash, 500);
 }
 
 window.addEventListener('load', hideSplash);
-document.addEventListener('DOMContentLoaded', hideSplash);
-setTimeout(hideSplash, 3000);
+setTimeout(hideSplash, 3500);
