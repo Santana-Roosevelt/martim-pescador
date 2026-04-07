@@ -907,16 +907,26 @@ function mostrarScreen(id) {
 }
 
 function abrirCardapio(tipo) {
+  showSplash();
   menuAtual = tipo;
   const menu = CARDAPIO[tipo];
   document.getElementById("cats-titulo").textContent = menu.nome;
   document.getElementById("cats-sub").textContent = menu.descricao;
-  renderCategorias(menu.categorias);
-  mostrarScreen("screen-categorias");
+  requestAnimationFrame(() => {
+    renderCategorias(menu.categorias);
+    mostrarScreen("screen-categorias");
+    setTimeout(hideSplash, 250);
+  });
 }
 
 function voltarHome() {
   mostrarScreen("screen-home");
+}
+
+function showSplash() {
+  const splash = document.getElementById("splash");
+  if (!splash) return;
+  splash.classList.remove("oculto");
 }
 
 function renderCategorias(cats) {
@@ -936,14 +946,18 @@ function renderCategorias(cats) {
 }
 
 function abrirCategoria(catKey) {
-  const menu = CARDAPIO[menuAtual];
-  const cat = menu.categorias[catKey];
-  categoriaAtual = catKey;
-  pratosAtual = cat.pratos;
-  document.getElementById("pratos-cat-icon").textContent = cat.icone;
-  document.getElementById("pratos-cat-nome").textContent = cat.nome;
-  renderPratos(cat.pratos);
-  mostrarScreen("screen-pratos");
+  showSplash();
+  requestAnimationFrame(() => {
+    const menu = CARDAPIO[menuAtual];
+    const cat = menu.categorias[catKey];
+    categoriaAtual = catKey;
+    pratosAtual = cat.pratos;
+    document.getElementById("pratos-cat-icon").textContent = cat.icone;
+    document.getElementById("pratos-cat-nome").textContent = cat.nome;
+    renderPratos(cat.pratos);
+    mostrarScreen("screen-pratos");
+    setTimeout(hideSplash, 250);
+  });
 }
 
 function voltarCategorias() {
@@ -1011,3 +1025,14 @@ function abrirDetalhe(prato) {
 function voltarPratos() {
   mostrarScreen("screen-pratos");
 }
+
+// ─── SPLASH LOADER ───────────────────────────────────
+function hideSplash() {
+  const splash = document.getElementById('splash');
+  if (!splash || splash.classList.contains('oculto')) return;
+  splash.classList.add('oculto');
+}
+
+window.addEventListener('load', hideSplash);
+document.addEventListener('DOMContentLoaded', hideSplash);
+setTimeout(hideSplash, 3000);

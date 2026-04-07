@@ -164,7 +164,7 @@ body {
 
 @media (min-width: 1024px) {
   #app {
-    max-width: 1100px;
+    max-width: auto;
     margin: 0 auto;
   }
 
@@ -172,8 +172,9 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 18px;
+    align-items: center;
     justify-content: center;
-    padding: 30px 32px 36px;
+    padding: 30px 120px 36px;
   }
 
   .menu-card {
@@ -201,7 +202,7 @@ body {
 .menu-card:active .menu-card-img { filter: brightness(0.6); }
  
 .menu-card-body {
-  padding: 18px 20px 20px;
+  padding: 18px 20px 25px;
   background: linear-gradient(180deg, rgba(13,45,74,0.9) 0%, rgba(13,45,74,0.98) 100%);
   position: relative;
 }
@@ -255,7 +256,7 @@ body {
 .cats-grid {
   padding: 8px 16px 24px;
   display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
-  max-width: 640px; margin: 0 auto; width: 100%;
+  max-width: 1024px; margin: 0 auto; width: 100%;
 }
  
 .cat-tile {
@@ -498,4 +499,82 @@ body {
   background: linear-gradient(135deg, var(--azul-medio), var(--azul-claro));
   display: flex; align-items: center; justify-content: center;
   font-size: 28px; flex-shrink: 0;
+}
+
+/* ─── SPLASH SCREEN ─────────────────────────────────── */
+#splash {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: linear-gradient(180deg, var(--azul-escuro) 0%, var(--azul-medio) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+
+#splash.oculto {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.splash-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.splash-content svg {
+  width: 100px;
+  height: 55px;
+  animation: splash-wave 2s ease-in-out infinite;
+}
+
+@keyframes splash-wave {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-6px); }
+}
+
+.splash-nome {
+  font-family: 'Noto Serif JP', serif;
+  color: var(--branco);
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.splash-nome em {
+  display: block;
+  color: var(--azul-pale);
+  font-style: normal;
+  font-size: 11px;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.splash-loader {
+  width: 160px;
+  height: 2px;
+  background: rgba(255,255,255,0.15);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.splash-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, var(--azul-suave), var(--dourado));
+  border-radius: 2px;
+  animation: splash-progress 1.8s ease forwards;
+}
+
+@keyframes splash-progress {
+  0%   { width: 0%; }
+  60%  { width: 75%; }
+  100% { width: 100%; }
 }
