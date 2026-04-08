@@ -188,8 +188,7 @@ const CARDAPIO = {
               "Releitura japonesa da pizza com massa especial, recheios orientais e um toque de wasabi. Fusão surpreendente.",
             descricao_curta: "Fusão japonesa",
             categoria: "Entradas",
-            imagem:
-              "img/Entradas_e_saladinhas/pizza_japonesa.jpg",
+            imagem: "img/Entradas_e_saladinhas/pizza_japonesa.jpg",
           },
           {
             id: "re5",
@@ -198,8 +197,7 @@ const CARDAPIO = {
               "Releitura criativa do clássico baiano com massa de feijão e recheio japonês — fusão única e exclusiva do Martim.",
             descricao_curta: "Fusão baiano-japonesa",
             categoria: "Entradas",
-            imagem:
-              "img/Entradas_e_saladinhas/acaraje_japones.jpg",
+            imagem: "img/Entradas_e_saladinhas/acaraje_japones.jpg",
           },
           {
             id: "re6",
@@ -208,8 +206,7 @@ const CARDAPIO = {
               "Rolinho primavera frito com recheio de legumes frescos refogados com shoyu. Crocante e saboroso.",
             descricao_curta: "Rolinho de legumes frescos",
             categoria: "Entradas",
-            imagem:
-              "img/Entradas_e_saladinhas/harumaki_legumes.jpeg",
+            imagem: "img/Entradas_e_saladinhas/harumaki_legumes.jpeg",
           },
           {
             id: "re7",
@@ -218,8 +215,7 @@ const CARDAPIO = {
               "Rolinho primavera recheado com queijo cremoso derretido. Irresistível com molho agridoce.",
             descricao_curta: "Queijo cremoso derretido",
             categoria: "Entradas",
-            imagem:
-              "img/Entradas_e_saladinhas/harumaki_queijo.jpg",
+            imagem: "img/Entradas_e_saladinhas/harumaki_queijo.jpg",
           },
           {
             id: "re8",
@@ -228,8 +224,7 @@ const CARDAPIO = {
               "Rolinho primavera recheado com salmão fresco temperado com cream cheese e cebolinha.",
             descricao_curta: "Salmão fresco e cream cheese",
             categoria: "Entradas",
-            imagem:
-              "img/Entradas_e_saladinhas/harumaki_salmao.jpg",
+            imagem: "img/Entradas_e_saladinhas/harumaki_salmao.jpg",
           },
           {
             id: "re9",
@@ -238,8 +233,7 @@ const CARDAPIO = {
               "Bolinho cozido no vapor à base de camarão temperado, envolto em massa de wonton. Delicado e suculento.",
             descricao_curta: "Cozido no vapor",
             categoria: "Entradas",
-            imagem:
-              "img/Entradas_e_saladinhas/shumay_camarao.jpg",
+            imagem: "img/Entradas_e_saladinhas/shumay_camarao.jpg",
           },
         ],
       },
@@ -254,8 +248,7 @@ const CARDAPIO = {
               "Hossomaki envolto em folha de acelga fresca ao invés de nori. Leve e refrescante.",
             descricao_curta: "Envolto em acelga fresca",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/Acelga_Maki.jpg",
+            imagem: "img/Makizushi/Acelga_Maki.jpg",
           },
           {
             id: "rm2",
@@ -264,8 +257,7 @@ const CARDAPIO = {
               "Uramaki empanado no panko e frito, crocante por fora com recheio quente e cremoso.",
             descricao_curta: "Frito e crocante por fora",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/hot_roll.jpg",
+            imagem: "img/Makizushi/hot_roll.jpg",
           },
           {
             id: "rm3",
@@ -274,8 +266,7 @@ const CARDAPIO = {
               "Hossomaki de salmão envolto em folha de couve fresca. Combinação surpreendente e saudável.",
             descricao_curta: "Salmão com couve",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/snake_couve.jpg",
+            imagem: "img/Makizushi/snake_couve.jpg",
           },
           {
             id: "rm4",
@@ -284,8 +275,7 @@ const CARDAPIO = {
               "Maki com pele de salmão tostada na brasa, crocante e cheia de sabor. Um dos favoritos da casa.",
             descricao_curta: "Pele crocante de salmão",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/salmao_skin.jpg",
+            imagem: "img/Makizushi/salmao_skin.jpg",
           },
           {
             id: "rm5",
@@ -294,8 +284,7 @@ const CARDAPIO = {
               "O clássico uramaki com kani, pepino e abacate, coberto com gergelim. Suave e equilibrado.",
             descricao_curta: "Kani, pepino e abacate",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/california.jpg",
+            imagem: "img/Makizushi/california.jpg",
           },
           {
             id: "rm6",
@@ -304,8 +293,7 @@ const CARDAPIO = {
               "Uramaki recheado com salmão grelhado ao tarê e cream cheese. Quente, cremoso e aromático.",
             descricao_curta: "Salmão grelhado ao tarê",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/hot_furai_salmao.jpg",
+            imagem: "img/Makizushi/hot_furai_salmao.jpg",
           },
           {
             id: "rm7",
@@ -314,8 +302,7 @@ const CARDAPIO = {
               "Hossomaki clássico de salmão fresco. Simples, puro e impecável — o básico bem feito.",
             descricao_curta: "Salmão fresco clássico",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/shakemaki.jpg",
+            imagem: "img/Makizushi/shakemaki.jpg",
           },
           {
             id: "rm8",
@@ -324,8 +311,7 @@ const CARDAPIO = {
               "Hossomaki recheado com camarão fresco, temperado com limão e shoyu.",
             descricao_curta: "Camarão fresco",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/ebimaki.jpg",
+            imagem: "img/Makizushi/ebimaki.jpg",
           },
           {
             id: "rm9",
@@ -334,8 +320,7 @@ const CARDAPIO = {
               "Uramaki quente com cream cheese derretido, salmão e coberto com molho especial. Cremoso e irresistível.",
             descricao_curta: "Cream cheese derretido e salmão",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/hot_filadelfia.jpg",
+            imagem: "img/Makizushi/hot_filadelfia.jpg",
           },
           {
             id: "rm10",
@@ -344,8 +329,7 @@ const CARDAPIO = {
               "Uramaki recheado com atum fresco levemente temperado, coberto com gergelim negro.",
             descricao_curta: "Atum fresco",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/uramaki_atum.jpg",
+            imagem: "img/Makizushi/uramaki_atum.jpg",
           },
           {
             id: "rm11",
@@ -354,8 +338,7 @@ const CARDAPIO = {
               "Camarão empanado no panko em formato de uramaki especial — crocante e saboroso.",
             descricao_curta: "Camarão no panko",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/ebitem_especial.jpg",
+            imagem: "img/Makizushi/ebitem_especial.jpg",
           },
           {
             id: "rm12",
@@ -364,8 +347,7 @@ const CARDAPIO = {
               "Uramaki recheado com polvo macio e temperado, toque de limão siciliano.",
             descricao_curta: "Polvo macio e temperado",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/uramaki_polvo.jpg",
+            imagem: "img/Makizushi/uramaki_polvo.jpg",
           },
           {
             id: "rm13",
@@ -374,8 +356,7 @@ const CARDAPIO = {
               "Salmão empanado no panko e frito, crocante por fora e suculento por dentro.",
             descricao_curta: "Salmão empanado frito",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/hot_furai_salmao.jpg",
+            imagem: "img/Makizushi/hot_furai_salmao.jpg",
           },
           {
             id: "rm14",
@@ -384,8 +365,7 @@ const CARDAPIO = {
               "Gunkan de salmão fresco — disponível cru ou maçaricado na hora. Intenso e aromático.",
             descricao_curta: "Cru ou maçaricado",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/joe_salmao.jpg",
+            imagem: "img/Makizushi/joe_salmao.jpg",
           },
           {
             id: "rm15",
@@ -394,8 +374,7 @@ const CARDAPIO = {
               "Gunkan de salmão com shimeji salteado — disponível cru ou maçaricado. Combinação excepcional.",
             descricao_curta: "Salmão e shimeji salteado",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/joe_salmao_shimeji.jpg",
+            imagem: "img/Makizushi/joe_salmao_shimeji.jpg",
           },
           {
             id: "rm16",
@@ -404,8 +383,7 @@ const CARDAPIO = {
               "Gunkan de camarão fresco e suculento, levemente temperado.",
             descricao_curta: "Camarão fresco",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/joe_camarao.jpg",
+            imagem: "img/Makizushi/joe_camarao.jpg",
           },
           {
             id: "rm17",
@@ -414,8 +392,7 @@ const CARDAPIO = {
               "Sushi prensado em camadas com salmão fresco. Apresentação elegante e sabor marcante.",
             descricao_curta: "Sushi prensado em camadas",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/oshizushi_salmao.jpg",
+            imagem: "img/Makizushi/oshizushi_salmao.jpg",
           },
           {
             id: "rm18",
@@ -424,8 +401,7 @@ const CARDAPIO = {
               "Criação exclusiva da casa com salmão e ingredientes secretos. A receita favorita dos clientes fiéis.",
             descricao_curta: "Receita exclusiva da casa",
             categoria: "Makizushi",
-            imagem:
-              "img/Makizushi/sakemaki_especial.jpg",
+            imagem: "img/Makizushi/sakemaki_especial.jpg",
           },
         ],
       },
@@ -526,8 +502,7 @@ const CARDAPIO = {
               "Grande cone de alga crocante recheado com camarão suculento, cream cheese cremoso e cebolinha verde picada.",
             descricao_curta: "Cream cheese e cebolinha",
             categoria: "Temaki",
-            imagem:
-              "img/Temaki/temaki_camarao.webp",
+            imagem: "img/Temaki/temaki_camarao.webp",
           },
           {
             id: "rt2",
@@ -536,8 +511,7 @@ const CARDAPIO = {
               "Cone de alga com atum fresco picado, cebolinha verde e um toque de shoyu. Clássico e saboroso.",
             descricao_curta: "Atum fresco e cebolinha",
             categoria: "Temaki",
-            imagem:
-              "img/Temaki/temaki_atum.webp",
+            imagem: "img/Temaki/temaki_atum.webp",
           },
           {
             id: "rt3",
@@ -546,8 +520,7 @@ const CARDAPIO = {
               "Cone de alga com combinação generosa de camarão e salmão fresco. Sabor dobrado.",
             descricao_curta: "Camarão e salmão fresco",
             categoria: "Temaki",
-            imagem:
-              "img/Temaki/camarao_salmao.webp",
+            imagem: "img/Temaki/camarao_salmao.webp",
           },
           {
             id: "rt4",
@@ -556,8 +529,7 @@ const CARDAPIO = {
               "Cone de alga com salmão fresco fatiado e cebolinha verde. Delicado e equilibrado.",
             descricao_curta: "Salmão e cebolinha verde",
             categoria: "Temaki",
-            imagem:
-              "img/Temaki/salmao_cebolinha.webp",
+            imagem: "img/Temaki/salmao_cebolinha.webp",
           },
           {
             id: "rt5",
@@ -566,8 +538,7 @@ const CARDAPIO = {
               "Cone de alga com salmão grelhado ao molho tarê. Quente, aromático e cheio de sabor.",
             descricao_curta: "Grelhado ao molho tarê",
             categoria: "Temaki",
-            imagem:
-              "img/Temaki/salmao_grelhado.webp",
+            imagem: "img/Temaki/salmao_grelhado.webp",
           },
           {
             id: "rt6",
@@ -576,8 +547,7 @@ const CARDAPIO = {
               "Cone de alga com salmão skin ao molho tarê. Quente, aromático e cheio de sabor.",
             descricao_curta: "Skin ao molho tarê",
             categoria: "Temaki",
-            imagem:
-              "img/Temaki/salmao_skin.webp",
+            imagem: "img/Temaki/salmao_skin.webp",
           },
           {
             id: "rt7",
@@ -586,8 +556,7 @@ const CARDAPIO = {
               "Temaki servido quente com salmão grelhado, cream cheese derretido e molho especial. Reconfortante.",
             descricao_curta: "Quente com cream cheese derretido",
             categoria: "Temaki",
-            imagem:
-              "img/Temaki/hot_salmao_grelhado.webp",
+            imagem: "img/Temaki/hot_salmao_grelhado.webp",
           },
         ],
       },
@@ -602,8 +571,7 @@ const CARDAPIO = {
               "Bolinho de arroz de sushi temperado coberto com fatia de salmão fresco. O clássico absoluto — e favorito da casa.",
             descricao_curta: "Salmão fresco — o clássico favorito",
             categoria: "Nigiri",
-            imagem:
-              "img/nigiri/nigiri_salmao.webp",
+            imagem: "img/nigiri/nigiri_salmao.webp",
           },
           {
             id: "rn2",
@@ -612,8 +580,7 @@ const CARDAPIO = {
               "Bolinho de arroz coberto com fatia de atum fresco de coloração intensa e sabor marcante.",
             descricao_curta: "Atum fresco e marcante",
             categoria: "Nigiri",
-            imagem:
-              "img/nigiri/nigiri_atum.webp",
+            imagem: "img/nigiri/nigiri_atum.webp",
           },
           {
             id: "rn3",
@@ -622,8 +589,7 @@ const CARDAPIO = {
               "Bolinho de arroz coberto com peixe branco de sabor delicado e textura suave.",
             descricao_curta: "Peixe branco delicado",
             categoria: "Nigiri",
-            imagem:
-              "img/nigiri/nigiri_peixe_branco.webp",
+            imagem: "img/nigiri/nigiri_peixe_branco.webp",
           },
           {
             id: "rn4",
@@ -632,8 +598,7 @@ const CARDAPIO = {
               "Bolinho de arroz coberto com camarão fresco cozido, levemente adoçado.",
             descricao_curta: "Camarão fresco cozido",
             categoria: "Nigiri",
-            imagem:
-              "img/nigiri/nigiri_camarao.webp",
+            imagem: "img/nigiri/nigiri_camarao.webp",
           },
           {
             id: "rn5",
@@ -642,8 +607,7 @@ const CARDAPIO = {
               "Bolinho de arroz coberto com pele de salmão tostada e crocante. Textura única e sabor intenso.",
             descricao_curta: "Pele de salmão crocante",
             categoria: "Nigiri",
-            imagem:
-              "img/nigiri/nigiri_salmao_skin.webp",
+            imagem: "img/nigiri/nigiri_salmao_skin.webp",
           },
           {
             id: "rn6",
@@ -652,8 +616,7 @@ const CARDAPIO = {
               "Bolinho de arroz coberto com peixe branco defumado artesanalmente. Aroma inconfundível.",
             descricao_curta: "Defumado artesanal",
             categoria: "Nigiri",
-            imagem:
-              "img/nigiri/nigiri_peixe_defumado.webp",
+            imagem: "img/nigiri/nigiri_peixe_defumado.webp",
           },
         ],
       },
@@ -668,8 +631,7 @@ const CARDAPIO = {
               "Tiras de filé mignon salteadas no teppan com molho de ostra encorpado, acompanhadas de legumes crocantes e coloridos.",
             descricao_curta: "Molho de ostra e legumes crocantes",
             categoria: "Chapinhas de Teppan",
-            imagem:
-              "img/Chapinhas_teppan/teppan_file.webp",
+            imagem: "img/Chapinhas_teppan/teppan_file.webp",
           },
           {
             id: "rtp2",
@@ -678,8 +640,7 @@ const CARDAPIO = {
               "Filé de frango grelhado no teppan com molho tarê caramelizado e legumes crocantes. Saboroso e equilibrado.",
             descricao_curta: "Tarê caramelizado e legumes",
             categoria: "Chapinhas de Teppan",
-            imagem:
-              "img/Chapinhas_teppan/frango_molho.webp",
+            imagem: "img/Chapinhas_teppan/frango_molho.webp",
           },
           {
             id: "rtp3",
@@ -688,8 +649,7 @@ const CARDAPIO = {
               "Filé de peixe branco grelhado no teppan com molho tonkatsu e legumes crocantes salteados.",
             descricao_curta: "Tonkatsu e legumes crocantes",
             categoria: "Chapinhas de Teppan",
-            imagem:
-              "img/Chapinhas_teppan/peixe_molho.webp",
+            imagem: "img/Chapinhas_teppan/peixe_molho.webp",
           },
         ],
       },
@@ -887,6 +847,261 @@ const CARDAPIO = {
       },
     },
   },
+  bebidas: {
+    nome: "Bebidas",
+    descricao: "Refrigerantes, drinks, águas, sakês e chás",
+    categorias: {
+      refrigerantes: {
+        nome: "Refrigerantes",
+        icone: "🥤",
+        pratos: [
+          {
+            id: "bef1",
+            nome: "Coca-Cola Lata",
+            descricao: "Coca-Cola gelada em lata 350ml",
+            descricao_curta: "Lata 350ml",
+            preco: "R$ 7,90",
+            categoria: "Refrigerantes",
+            imagem: "",
+          },
+          {
+            id: "bef2",
+            nome: "Coca-Cola Zero Lata",
+            descricao: "Coca-Cola Zero gelada em lata 350ml",
+            descricao_curta: "Lata 350ml",
+            preco: "R$ 7,90",
+            categoria: "Refrigerantes",
+            imagem: "",
+          },
+          {
+            id: "bef3",
+            nome: "Guaraná Antarctica Lata",
+            descricao: "Guaraná Antarctica gelado em lata 350ml",
+            descricao_curta: "Lata 350ml",
+            preco: "R$ 7,90",
+            categoria: "Refrigerantes",
+            imagem: "",
+          },
+          {
+            id: "bef4",
+            nome: "Refrigerante 600ml",
+            descricao: "Coca-Cola, Guaraná ou Sprite em garrafa 600ml",
+            descricao_curta: "Garrafa 600ml",
+            preco: "R$ 12,90",
+            categoria: "Refrigerantes",
+            imagem: "",
+          },
+          {
+            id: "bef5",
+            nome: "Refrigerante 2L",
+            descricao: "Coca-Cola, Guaraná ou Sprite em garrafa 2 litros",
+            descricao_curta: "Garrafa 2 litros",
+            preco: "R$ 18,90",
+            categoria: "Refrigerantes",
+            imagem: "",
+          },
+        ],
+      },
+
+      aguas: {
+        nome: "Águas",
+        icone: "💧",
+        pratos: [
+          {
+            id: "bag1",
+            nome: "Água sem Gás 500ml",
+            descricao: "Água mineral natural sem gás gelada 500ml",
+            descricao_curta: "500ml sem gás",
+            preco: "R$ 5,90",
+            categoria: "Águas",
+            imagem: "",
+          },
+          {
+            id: "bag2",
+            nome: "Água com Gás 500ml",
+            descricao: "Água mineral com gás gelada 500ml",
+            descricao_curta: "500ml com gás",
+            preco: "R$ 6,90",
+            categoria: "Águas",
+            imagem: "",
+          },
+          {
+            id: "bag3",
+            nome: "Água sem Gás 1,5L",
+            descricao: "Água mineral natural sem gás 1,5 litros",
+            descricao_curta: "1,5L sem gás",
+            preco: "R$ 9,90",
+            categoria: "Águas",
+            imagem: "",
+          },
+          {
+            id: "bag4",
+            nome: "Água com Gás 1,5L",
+            descricao: "Água mineral com gás 1,5 litros",
+            descricao_curta: "1,5L com gás",
+            preco: "R$ 10,90",
+            categoria: "Águas",
+            imagem: "",
+          },
+        ],
+      },
+
+      sake: {
+        nome: "Sakê",
+        icone: "🍶",
+        pratos: [
+          {
+            id: "bsk1",
+            nome: "Sakê Quente",
+            descricao: "Sakê tradicional japonês servido quente — 180ml",
+            descricao_curta: "Servido quente 180ml",
+            preco: "R$ 24,90",
+            categoria: "Sakê",
+            imagem: "",
+          },
+          {
+            id: "bsk2",
+            nome: "Sakê Frio",
+            descricao: "Sakê tradicional japonês servido gelado — 180ml",
+            descricao_curta: "Servido gelado 180ml",
+            preco: "R$ 24,90",
+            categoria: "Sakê",
+            imagem: "",
+          },
+          {
+            id: "bsk3",
+            nome: "Sakê Premium",
+            descricao:
+              "Sakê premium junmai daiginjo, suave e aromático — 300ml",
+            descricao_curta: "Junmai daiginjo 300ml",
+            preco: "R$ 59,90",
+            categoria: "Sakê",
+            imagem: "",
+          },
+          {
+            id: "bsk4",
+            nome: "Sakê de Frutas",
+            descricao:
+              "Sakê adocicado com frutas tropicais — morango, maracujá ou lichia",
+            descricao_curta: "Com frutas tropicais",
+            preco: "R$ 29,90",
+            categoria: "Sakê",
+            imagem: "",
+          },
+        ],
+      },
+
+      chas: {
+        nome: "Chás",
+        icone: "🍵",
+        pratos: [
+          {
+            id: "bch1",
+            nome: "Chá Verde",
+            descricao: "Chá verde japonês tradicional servido quente ou gelado",
+            descricao_curta: "Quente ou gelado",
+            preco: "R$ 12,90",
+            categoria: "Chás",
+            imagem: "",
+          },
+          {
+            id: "bch2",
+            nome: "Chá de Gengibre",
+            descricao: "Chá de gengibre com limão siciliano e mel",
+            descricao_curta: "Gengibre, limão e mel",
+            preco: "R$ 14,90",
+            categoria: "Chás",
+            imagem: "",
+          },
+          {
+            id: "bch3",
+            nome: "Chá Preto",
+            descricao: "Chá preto encorpado servido quente com opção de leite",
+            descricao_curta: "Com opção de leite",
+            preco: "R$ 12,90",
+            categoria: "Chás",
+            imagem: "",
+          },
+          {
+            id: "bch4",
+            nome: "Chá de Hibisco Gelado",
+            descricao:
+              "Chá de hibisco gelado levemente adoçado, refrescante e aromático",
+            descricao_curta: "Gelado e refrescante",
+            preco: "R$ 14,90",
+            categoria: "Chás",
+            imagem: "",
+          },
+        ],
+      },
+
+      drinks: {
+        nome: "Drinks",
+        icone: "🍹",
+        pratos: [
+          {
+            id: "bdr1",
+            nome: "Caipirinha Clássica",
+            descricao: "Caipirinha tradicional de cachaça com limão e açúcar",
+            descricao_curta: "Cachaça, limão e açúcar",
+            preco: "R$ 28,90",
+            categoria: "Drinks",
+            imagem: "",
+          },
+          {
+            id: "bdr2",
+            nome: "Caipirinha de Sakê",
+            descricao:
+              "Caipirinha com sakê no lugar da cachaça, suave e refrescante",
+            descricao_curta: "Sakê, limão e açúcar",
+            preco: "R$ 32,90",
+            categoria: "Drinks",
+            imagem: "",
+          },
+          {
+            id: "bdr3",
+            nome: "Caipirinha de Frutas",
+            descricao:
+              "Caipirinha com frutas da estação — morango, maracujá ou manga",
+            descricao_curta: "Frutas da estação",
+            preco: "R$ 32,90",
+            categoria: "Drinks",
+            imagem: "",
+          },
+          {
+            id: "bdr4",
+            nome: "Mojito Japonês",
+            descricao:
+              "Mojito com toque oriental — hortelã, limão, sakê e água com gás",
+            descricao_curta: "Hortelã, limão e sakê",
+            preco: "R$ 35,90",
+            categoria: "Drinks",
+            imagem: "",
+          },
+          {
+            id: "bdr5",
+            nome: "Drink de Lichia",
+            descricao:
+              "Drink suave com lichia, vodka, suco de limão e água com gás",
+            descricao_curta: "Lichia, vodka e limão",
+            preco: "R$ 35,90",
+            categoria: "Drinks",
+            imagem: "",
+          },
+          {
+            id: "bdr6",
+            nome: "Drink Sem Álcool",
+            descricao:
+              "Combinação de sucos naturais com água com gás e xarope de frutas",
+            descricao_curta: "Zero álcool e refrescante",
+            preco: "R$ 22,90",
+            categoria: "Drinks",
+            imagem: "",
+          },
+        ],
+      },
+    },
+  },
 };
 
 // ─── ESTADO ──────────────────────────────────────────
@@ -970,10 +1185,10 @@ function renderPratos(pratos) {
     const card = document.createElement("div");
     card.className = "prato-card";
     card.onclick = () => abrirDetalhe(p);
-    
+
     const isMobile = window.innerWidth < 768;
-    const imgSize = isMobile ? 'w=300&q=50' : 'w=600&q=80';
-    
+    const imgSize = isMobile ? "w=300&q=50" : "w=600&q=80";
+
     card.innerHTML = `
       <img class="prato-card-img" data-src="${p.imagem}" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect fill='%231a4a6e' width='100' height='100'/%3E%3C/svg%3E" alt="${p.nome}" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1617196034099-5b28d4ddb700?w=300&q=50'">
       <div class="prato-card-info">
@@ -984,32 +1199,40 @@ function renderPratos(pratos) {
     `;
     list.appendChild(card);
   });
-  
+
   lazyLoadImages();
 }
 
 function lazyLoadImages() {
-  if ('IntersectionObserver' in window) {
-    const imageObserver = new IntersectionObserver((entries, observer) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const img = entry.target;
-          const src = img.dataset.src;
-          if (src) {
-            const isMobile = window.innerWidth < 768;
-            const optimizedUrl = src.includes('unsplash') 
-              ? src.replace(/w=\d+&q=\d+/, isMobile ? 'w=300&q=50' : 'w=600&q=80')
-              : src;
-            img.src = optimizedUrl;
-            observer.unobserve(img);
+  if ("IntersectionObserver" in window) {
+    const imageObserver = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            const src = img.dataset.src;
+            if (src) {
+              const isMobile = window.innerWidth < 768;
+              const optimizedUrl = src.includes("unsplash")
+                ? src.replace(
+                    /w=\d+&q=\d+/,
+                    isMobile ? "w=300&q=50" : "w=600&q=80",
+                  )
+                : src;
+              img.src = optimizedUrl;
+              observer.unobserve(img);
+            }
           }
-        }
-      });
-    }, { rootMargin: '50px' });
-    
-    document.querySelectorAll('img[data-src]').forEach(img => imageObserver.observe(img));
+        });
+      },
+      { rootMargin: "50px" },
+    );
+
+    document
+      .querySelectorAll("img[data-src]")
+      .forEach((img) => imageObserver.observe(img));
   } else {
-    document.querySelectorAll('img[data-src]').forEach(img => {
+    document.querySelectorAll("img[data-src]").forEach((img) => {
       img.src = img.dataset.src;
     });
   }
@@ -1018,11 +1241,14 @@ function lazyLoadImages() {
 function abrirDetalhe(prato) {
   const detImg = document.getElementById("det-img");
   const isMobile = window.innerWidth < 768;
-  
-  const optimizedUrl = prato.imagem.includes('unsplash') 
-    ? prato.imagem.replace(/w=\d+&q=\d+/, isMobile ? 'w=400&q=60' : 'w=600&q=85')
+
+  const optimizedUrl = prato.imagem.includes("unsplash")
+    ? prato.imagem.replace(
+        /w=\d+&q=\d+/,
+        isMobile ? "w=400&q=60" : "w=600&q=85",
+      )
     : prato.imagem;
-  
+
   detImg.src = optimizedUrl;
   detImg.alt = prato.nome;
   document.getElementById("det-cat").innerHTML =
@@ -1061,10 +1287,10 @@ function voltarPratos() {
 
 // ─── SPLASH LOADER ───────────────────────────────────
 function hideSplash() {
-  const splash = document.getElementById('splash');
-  if (!splash || splash.classList.contains('oculto')) return;
+  const splash = document.getElementById("splash");
+  if (!splash || splash.classList.contains("oculto")) return;
   requestAnimationFrame(() => {
-    splash.classList.add('oculto');
+    splash.classList.add("oculto");
   });
 }
 
@@ -1076,13 +1302,13 @@ function showSplash() {
   });
 }
 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => {
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", () => {
     setTimeout(hideSplash, 500);
   });
 } else {
   setTimeout(hideSplash, 500);
 }
 
-window.addEventListener('load', hideSplash);
+window.addEventListener("load", hideSplash);
 setTimeout(hideSplash, 3500);
